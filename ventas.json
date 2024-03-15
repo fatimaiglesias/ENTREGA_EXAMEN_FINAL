@@ -1,0 +1,32 @@
+[
+    {
+        "comprador": {
+            "nombre": "fatima",
+            "email": "fatima@gmail.com"
+        },
+        "evento": {
+            "nombre": "Parrillada de Verano",
+            "fecha": "2024-06-20",
+            "lugar": "Parque Central",
+            "precio": 25
+        },
+        "cantidad": 3
+    },
+    {
+        "comprador": {
+            "nombre": "karina",
+            "email": "kaeina@gmail.com"
+        },
+        "evento": {
+            "nombre": "Evento VIP de Barbacoa",
+            "fecha": "2024-07-15",
+            "lugar": "Sal\u00f3n Principal",
+            "precio": 50,
+            "beneficios": [
+                "Asientos VIP",
+                "Catering exclusivo"
+            ]
+        },
+        "cantidad": 1
+    }
+]
