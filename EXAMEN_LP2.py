@@ -146,9 +146,9 @@ def mostrar_menu_eventos():
 
 def obtener_evento(opcion):
     if opcion == '1':
-        return EventoParrillada("Parrillada de Verano", "2024-06-20", "Parque Central", 25)
+        return EventoParrillada("Parrillada ", "2024-06-20", "Parque Central", 25)
     elif opcion == '2':
-        return EventoVIP("Evento VIP de Barbacoa", "2024-07-15", "Salón Principal", 50, ["Asientos VIP", "Catering exclusivo"])
+        return EventoVIP("Evento VIP ", "2024-07-15", "Salón Principal", 50, ["Asientos VIP", "Catering exclusivo"])
     else:
         raise DatosInvalidosError("La opción seleccionada no es válida.")
 
